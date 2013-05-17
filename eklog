@@ -1,0 +1,6 @@
+#!/bin/sh
+
+eklog()
+ {
+  ( cd /etc && git log )
+ }
