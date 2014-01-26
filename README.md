@@ -7,12 +7,12 @@ You could type the following command to get ready to use them
 source setup.sh
 ```
 
-## proc
+### proc
 
   Search processes with using grep  
   Usage: `proc foo`
 
-## p
+### p
 
   Echo line(s) in system clipboard  
   Dependencies: `xclip`  
