@@ -1,0 +1,25 @@
+
+bak(){
+ if [ -e "$1.bak" ] ;then
+  echo "Abort: file exist"
+  return 1
+   else
+    mv $1 $1.bak
+    fi
+ }
+
+dls(){
+ if [ "" = "$*" ] ;then
+  du -ahl ./ | sort -h | sed 's|^| :|g'
+  return 0
+  fi
+ if ! [ "" = "$*" ] ;then
+  du -ahl $* | sort -h | sed 's|^| :|g'
+  return 0
+  fi
+ }
+
+fm(){
+ find -type f -print0 | xargs -r0 stat -c %y\ %n | sort | grep '\./.\+' --color=never -o
+ }
+
