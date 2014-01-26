@@ -25,7 +25,7 @@ source setup.sh
 
 ### dls
 
-  List up all size of directories and files recursively, sorted by allocated size in reverse order
+  List up all size of directories and files recursively, sorted by allocated size in reverse order  
   Usage: just type `dls`
 
 ### fm
