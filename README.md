@@ -5,12 +5,13 @@ And I locate some bash-compatible shell scripts here
 You could type the following command to get ready to use them  
 `source setup.sh`
 
-## eklog
+## proc
 
-  View your git-log in /etc  
-  The script name comes from 'etckeeper'
+  Search processes with using grep  
+  Usage: `proc foo`
 
 ## p
 
   Echo line(s) in system clipboard
+  Usage: just type `p`
 
