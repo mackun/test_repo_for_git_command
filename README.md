@@ -28,10 +28,10 @@ source setup.sh
   List up all size of directories and files recursively, sorted by allocated size in reverse order  
   Usage: just type `dls`
 
-### fm
+### mls
 
   List up all names of directories and files recursively, sorted by modification time in reverse order  
-  Usage: just type `fm`
+  Usage: just type `mls`
 
 ### fdepl
 
