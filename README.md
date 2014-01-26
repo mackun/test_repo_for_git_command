@@ -43,3 +43,5 @@ source setup.sh
   Delete specified file from ~/.functions directory and unfunction it  
   Usage: `unfdepl your.shell.function`
 
+P.S. I will never reject pull requests for my github experience
+     So if you too are a newbie like me, please spare time for these little scripts for me
