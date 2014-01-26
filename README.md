@@ -10,7 +10,7 @@ source setup.sh
 ## proc
 
   Search processes with using grep  
-  Usage: #`proc foo`
+  Usage: `proc foo`
 
 ## p
 
