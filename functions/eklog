@@ -1,6 +1,5 @@
-#!/bin/sh
 
-eklog()
- {
-  ( cd /etc && git log )
+eklog(){
+ ( cd /etc && git log )
  }
+

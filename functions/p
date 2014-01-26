@@ -1,7 +1,5 @@
-#!/bin/sh
 
-p()
- {
-  xclip -o -sel c
+p(){
+ xclip -o -sel c
  }
 

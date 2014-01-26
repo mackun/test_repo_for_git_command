@@ -17,7 +17,5 @@ setup(){
   done
  unset -f setup
 
- }
-
-setup
+ }; setup
 
