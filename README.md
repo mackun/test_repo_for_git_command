@@ -10,10 +10,14 @@ source setup.sh
 ## proc
 
   Search processes with using grep  
-  Usage: `proc foo`
+  ```bash
+  proc foo
+  ```
 
 ## p
 
   Echo line(s) in system clipboard  
-  Usage: just type `p`
+  ```bash
+  p
+  ```
 
