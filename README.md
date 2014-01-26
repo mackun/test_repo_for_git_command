@@ -18,27 +18,27 @@ source setup.sh
   Dependencies: `xclip`  
   Usage: just type `p`
 
-## bak
+### bak
 
   Rename file with ".bak" suffix  
   Usage: `bak /etc/foo.conf`
 
-## dls
+### dls
 
   List up all directories / files size recursively  
   Usage: just type `dls`
 
-## fm
+### fm
 
   List up all directories / files in order of file modification date in reverse  
   Usage: just type `fm`
 
-## fdepl
+### fdepl
 
   Place your original shell function in ~/.functions directory and get ready to use it  
   Usage: `fdepl your.shell.function`
 
-## unfdepl
+### unfdepl
 
   Delete specified file from ~/.functions directory and unfunction it  
   Usage: `unfdepl your.shell.function`
