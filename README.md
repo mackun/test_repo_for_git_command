@@ -12,6 +12,6 @@ You could type the following command to get ready to use them
 
 ## p
 
-  Echo line(s) in system clipboard
+  Echo line(s) in system clipboard  
   Usage: just type `p`
 
