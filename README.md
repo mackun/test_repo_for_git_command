@@ -2,7 +2,8 @@ test_repo_for_git_command
 -------------------------
 
 And I locate some bash-compatible shell scripts here  
-You could type the following command to get ready to use them  
+These scripts are all composed of shell functions
+You could only type the following command to get ready to use them  
 ```bash
 source setup.sh
 ```
@@ -35,7 +36,7 @@ source setup.sh
 
 ### fdepl
 
-  Place your new shell function in ~/.functions directory and get ready to use it  
+  Place your new shell function script in ~/.functions directory and get ready to use it  
   Usage: `fdepl your.shell.function`
 
 ### unfdepl
