@@ -46,4 +46,4 @@ source setup.sh
 
 P.S.  
 I will never reject any pull requests for my great github experience  
-So if you too feel like a newbie here, please spare time for these little scripts for me
+So if you feel free to advise, please spare time for these little scripts for me
