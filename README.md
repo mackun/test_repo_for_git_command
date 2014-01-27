@@ -45,5 +45,5 @@ source setup.sh
   Usage: `unfdepl your.shell.function`
 
 P.S.  
-I will never reject pull requests for my great github experience  
+I will never any reject pull requests for my great github experience  
 So if you too feel like a newbie here, please spare time for these little scripts for me
