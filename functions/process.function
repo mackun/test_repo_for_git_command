@@ -1,5 +1,0 @@
-
-proc(){
- ps aux | grep -i $(echo $1 | cut -c1 | sed -e "s'^'['g" -e "s'$']'g")$(echo $1 | cut -c2-)
- }
-
