@@ -1,0 +1,14 @@
+
+fdepl(){
+ local dest=~/.functions
+ diff -u ${dest}/$1 $1 2>/dev/null
+ cp -i $1 ${dest} || return 1
+ ls     ${dest}/$1
+ source ${dest}/$1
+ }
+
+unfdepl(){
+ local dest=~/.functions
+ rm ${dest}/$1 && echo "Deleted"
+ }
+
