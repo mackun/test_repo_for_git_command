@@ -3,9 +3,9 @@ bak(){
  if [ -e "$1.bak" ] ;then
   echo "Abort: file exist"
   return 1
-   else
-    mv $1 $1.bak
-    fi
+  else
+   mv $1 $1.bak
+   fi
  }
 
 dls(){
