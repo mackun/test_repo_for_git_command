@@ -1,4 +1,3 @@
-
 bak(){
  if [ -e "$1.bak" ] ;then
   echo "Abort: file exist"
@@ -9,12 +8,12 @@ bak(){
  }
 
 dls(){
- if [ "" = "$*" ] ;then
-  du -ahl ./ | sort -h | sed 's|^| :|g'
+ if   [ "" = "$*" ] ;then
+  du -ah ./ |sort -h |sed 's|^| :|g'
   return 0
   fi
  if ! [ "" = "$*" ] ;then
-  du -ahl $* | sort -h | sed 's|^| :|g'
+  du -ach $* |sort -h |sed 's|^| :|g'
   return 0
   fi
  }
@@ -22,4 +21,3 @@ dls(){
 mls(){
  find -type f -print0 | xargs -r0 stat -c %y\ %n | sort | grep '\./.\+' --color=never -o
  }
-

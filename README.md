@@ -5,19 +5,13 @@ And I locate some bash-compatible shell scripts here
 These scripts are all composed of shell functions  
 You could only type the following command to get ready to use them  
 ```bash
-source setup.sh
+./setup.sh
 ```
 
 ### proc
 
   Search processes with using grep  
   Usage: `proc foo`
-
-### p
-
-  Echo line(s) in system clipboard  
-  Dependencies: `xclip`  
-  Usage: just type `p`
 
 ### bak
 
